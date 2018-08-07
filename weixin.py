@@ -24,7 +24,7 @@ class Moments():
 		self.collection=self.db.weixin
 		
 	def login(self):
-		print('点击登陆按钮——————')
+		print('点击登陆按钮—————')
 		login=self.wait.until(EC.presence_of_element_located((By.ID,'com.tencent.mm:id/d75')))
 		login.click()
 		#输入手机号
